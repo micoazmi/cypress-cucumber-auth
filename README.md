@@ -7,18 +7,18 @@ Cypress-Cucumber Testing
 This project is divided into two main folders, each serving a specific purpose:
 
 1. **App**: `app`
-   - Description: [Brief description of folder 1 functionality].
+   - Description: this is the application we going to tests.
    - Requires its own installation process.
 2. **Cypress-cucumber**: `cypress-cucumber`
-   - Description: [Brief description of folder 2 functionality].
+   - Description: this is the testing app.
    - Requires its own installation process.
 
 ## Prerequisites
 
 Ensure you have the following installed on your system:
 
-- [Dependency 1]
-- [Dependency 2]
+- Next JS
+- Cypress-Cucumber
 - Node.js (for example) - [Install Node.js](https://nodejs.org/)
 
 ## Installation
