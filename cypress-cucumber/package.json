@@ -11,7 +11,7 @@
     "BBD",
     "Cucumber"
   ],
-  "author": "",
+  "author": "mico",
   "license": "ISC",
   "dependencies": {
     "@babel/plugin-transform-class-properties": "^7.24.6",
