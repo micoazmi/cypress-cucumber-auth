@@ -1,15 +1,15 @@
 # Project Title
 
-A brief description of the project goes here.
+Cypress-Cucumber Testing
 
 ## Project Structure
 
 This project is divided into two main folders, each serving a specific purpose:
 
-1. **Folder 1**: `folder1/`
+1. **App**: `app`
    - Description: [Brief description of folder 1 functionality].
    - Requires its own installation process.
-2. **Folder 2**: `folder2/`
+2. **Cypress-cucumber**: `cypress-cucumber`
    - Description: [Brief description of folder 2 functionality].
    - Requires its own installation process.
 
@@ -23,11 +23,22 @@ Ensure you have the following installed on your system:
 
 ## Installation
 
-### 1. Folder 1
+### 1. app
 
-Navigate to the `folder1/` directory and install its dependencies.
+Navigate to the `app/NextJs/firebase-auth` directory and install its dependencies.
 
 ```bash
-cd folder1
+cd app/NextJs/firebase-auth
 npm install
+npm run dev
+```
+
+### 2. cypress-cucumber
+
+Navigate to the `app/NextJs/firebase-auth` directory and install its dependencies.
+
+```bash
+cd cypress-cucumber
+npm install
+npx cypress open
 ```
