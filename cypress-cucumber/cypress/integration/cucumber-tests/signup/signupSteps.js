@@ -27,10 +27,10 @@ Then("I should see a success popup with {string}", (message) => {
   cy.contains(message).should("be.visible");
 });
 
-Then("I should see an error popup with {string}", () => {
-  cy.contains("Password should be at least 6 characters").should("be.visible");
+Then("i should see an error popup {string}", () => {
+  cy.contains("Error").should("be.visible");
 });
 
-Then("I should see an error popup {string}", () => {
-  cy.contains("Error").should("be.visible");
+Then("I should see an error popup with {string}", () => {
+  cy.contains("Password should be at least 6 characters").should("be.visible");
 });
